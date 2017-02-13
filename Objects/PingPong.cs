@@ -1,6 +1,7 @@
 using System;
+using System.Collections.Generic;
 
-namespace PingPong.Objects
+namespace PingPongApp.Objects
 {
   public class PingPong
   {
@@ -8,7 +9,7 @@ namespace PingPong.Objects
   //   public int _multiple;
    //
     public int _number;
-    public List<string> _list;
+
   //   public int[] numberArray;
    //
     public PingPong(int number)
@@ -35,8 +36,19 @@ namespace PingPong.Objects
     public List<string> PrintArray()
     {
 
-        return _list;
+        List<string> listObj = new List<string>{};
+        for (int i = 1; i <= _number; i++)
+        {
+          if (i % 3 ==0)
+          {
+            listObj.Add("ping".ToString());
+          } else{
+              listObj.Add(i.ToString());  
+          }
+        }
 
+
+        return listObj;
     }
 
 
