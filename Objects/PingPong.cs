@@ -39,12 +39,19 @@ namespace PingPongApp.Objects
         List<string> listObj = new List<string>{};
         for (int i = 1; i <= _number; i++)
         {
-          if (i % 3 ==0)
+          if (i % 15 == 0)
+          {
+            listObj.Add("pingpong".ToString());
+          } else if (i % 3 ==0)
           {
             listObj.Add("ping".ToString());
-          } else{
-              listObj.Add(i.ToString());  
-          }
+          } else if (i % 5 ==0)
+            {
+              listObj.Add("pong".ToString());
+            } else
+            {
+              listObj.Add(i.ToString());
+            }
         }
 
 
