@@ -33,7 +33,7 @@ _None_
 
 ## Support and contact details
 
-_email: mija.sand@gmail.com_
+_email: katy.daviscourt@gmail.com_
 
 ## Technologies Used
 
@@ -41,6 +41,6 @@ _C#, HTML, Javascript_
 
 ### License
 
-*MIT}*
+*MIT*
 
 Copyright (c) 2017 **_Sandro and Katy_**
